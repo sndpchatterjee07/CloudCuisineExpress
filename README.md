@@ -1,6 +1,6 @@
 # CloudCuisineExpress
 
-CloudCuisineExpress is a full-stack web application that empowers cloud kitchens to streamline their operations, manage menus, process orders, and enhance the customer experience. Built with the MERN stack, this project offers a comprehensive solution for modern food delivery businesses.
+`CloudCuisineExpress` is a full-stack web application that empowers cloud kitchens to streamline their operations, manage menus, process orders, and enhance the customer experience. Built with the MERN stack, this project offers a comprehensive solution for modern food delivery businesses.
 
 ## Features
 
