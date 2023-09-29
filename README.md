@@ -36,16 +36,33 @@
 - React
 - Node.js `20.7.0`
 
-## Getting Started
 
-1. Clone this repository.
-2. Navigate to the project directory.
-3. Install dependencies for the server using `npm install`.
-4. Install dependencies for the client using `cd client` and then `npm install`.
-5. Set up a MongoDB database and configure the connection in the server configuration.
-6. Run the server using `npm start` in the project root.
-7. Run the client using `npm start` in the `client` directory.
-8. Access the application in your web browser at `http://localhost:3000`.
+## Deploying the project to Apache Server
+
+1. Clone this repository `git clone https://github.com/sndpchatterjee07/CloudCuisineExpress.git`.
+2. Navigate to the project's `client` directory.
+3. Build the project `npm run build`
+4. Rename the directory `build` to `cloudcuisinexxpress`(Or anything of your choice).
+5. Copy the directory to `/var/www/html/` as root - `cp -rf /home/sandeep/Desktop/cloudcuisinexxpress/ /var/www/html/`
+6. Go to the `/etc/apache2/sites-available/` directory and open the `000-default.conf` file.
+7. Change the `DocumentRoot` path to `/var/www/html/cloudcuisinexxpress`
+8. Go to `/etc/apache2` and open `apache2.conf` and add the following snippet
+
+   ```
+   <Directory /var/www/html>
+       Options Indexes FollowSymLinks
+       AllowOverride All
+       Require all granted
+   </Directory>
+   ```
+
+9. Restart the Apache server
+
+   `sudo service apache2 restart`
+
+10. Access the application in your web browser at `http://localhost/cloudcuisinexxpress/`.  
+
+
 
 ## Contributing
 
