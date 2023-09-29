@@ -2,6 +2,17 @@
 
 `CloudCuisineExpress` is a full-stack web application that empowers cloud kitchens to streamline their operations, manage menus, process orders, and enhance the customer experience. Built with the MERN stack, this project offers a comprehensive solution for modern food delivery businesses.
 
+## MERN Project Structure
+
+  ![Screenshot from 2023-09-30 02-31-48](https://github.com/sndpchatterjee07/CloudCuisineExpress/assets/3818950/7dfd75f6-2ada-4af6-8fb2-78a9384c86a1)
+
+## MongoDB Database
+
+  ![Screenshot from 2023-09-30 02-33-42](https://github.com/sndpchatterjee07/CloudCuisineExpress/assets/3818950/e3dbdba2-5030-4812-a20b-98559eb3ee78)
+
+
+
+
 ## Features
 
 - **Menu Management**: Create, update, and manage menu items with ease, including descriptions, prices, and images, all from an intuitive admin dashboard.
