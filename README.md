@@ -42,10 +42,10 @@
 1. Clone this repository `git clone https://github.com/sndpchatterjee07/CloudCuisineExpress.git`.
 2. Navigate to the project's `client` directory.
 3. Build the project `npm run build`
-4. Rename the directory `build` to `cloudcuisinexxpress`(Or anything of your choice).
-5. Copy the directory to `/var/www/html/` as root - `cp -rf /home/sandeep/Desktop/cloudcuisinexxpress/ /var/www/html/`
+4. Rename the directory `build` to `cloudcuisineexpress`(or anything of your choice).
+5. Copy the directory to `/var/www/html/` as root - `cp -rf /home/sandeep/Desktop/cloudcuisineexpress/ /var/www/html/`
 6. Go to the `/etc/apache2/sites-available/` directory and open the `000-default.conf` file.
-7. Change the `DocumentRoot` path to `/var/www/html/cloudcuisinexxpress`
+7. Change the `DocumentRoot` path to `/var/www/html/cloudcuisineexpress`
 8. Go to `/etc/apache2` and open `apache2.conf` and add the following snippet
 
    ```
@@ -60,7 +60,7 @@
 
    `sudo service apache2 restart`
 
-10. Access the application in your web browser at `http://localhost/cloudcuisinexxpress/`.  
+10. Access the application in your web browser at `http://127.0.0.1/`.  
 
 
 
