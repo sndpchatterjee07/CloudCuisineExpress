@@ -11,7 +11,7 @@ const UserModel = require("./MODELS/Users");
  * It also establishes a connection to our CloudCuisineExpress database.
  * 
  */
-mongoose.connect("mongodb+srv://sandeepc:chinu030782@my-default-cluster.nopctvg.mongodb.net/CloudCuisineExpress?retryWrites=true&w=majority");
+mongoose.connect("mongodb+srv://sandeepc:<password>@my-default-cluster.nopctvg.mongodb.net/CloudCuisineExpress?retryWrites=true&w=majority");
 
 
 /**
