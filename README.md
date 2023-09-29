@@ -20,10 +20,10 @@
 
 ## Technologies Used
 
-- MongoDB
-- Express.js
+- MongoDB `6.0.10`
+- `Express.js 4.16.1`
 - React
-- Node.js
+- Node.js `20.7.0`
 
 ## Getting Started
 
